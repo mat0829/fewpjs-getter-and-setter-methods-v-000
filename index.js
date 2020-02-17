@@ -22,7 +22,7 @@ class Circle {
   }
   
   set circumference(circumference) {
-    this.radius = circumference / (PI)
+    this.radius = circumference / (PI * 2)
   }
   
   set area(area) {
