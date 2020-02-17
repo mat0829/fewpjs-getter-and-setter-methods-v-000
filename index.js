@@ -9,5 +9,7 @@ class Circle {
     this._diameter = diameter
   }
   
-  get 
+  set circumference(circumference) {
+    this._circumference = circumference
+  }
 }
