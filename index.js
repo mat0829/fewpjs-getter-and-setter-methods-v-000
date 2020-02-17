@@ -12,4 +12,8 @@ class Circle {
   set circumference(circumference) {
     this._circumference = circumference
   }
+  
+  set area(area) {
+    this._area = area
+  }
 }
