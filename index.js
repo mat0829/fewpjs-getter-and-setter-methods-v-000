@@ -9,8 +9,8 @@ class Circle {
     return this.radius * 2
   }
   
-  set diameter(radius) {
-    this._diameter = diameter
+  set diameter(diameter) {
+    this.radius = diameter / 2
   }
   
   get circumference() {
